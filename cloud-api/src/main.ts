@@ -90,6 +90,8 @@ async function application() {
 		methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
 		allowedHeaders: ["Content-Type", "Authorization", "Pragma", "Cache-Control"]
 	}));
+
+	console.log("dfdf")
 	
   app.use(express.json());
   app.use(express.urlencoded({ extended: false }));
