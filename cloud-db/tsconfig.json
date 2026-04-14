@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+		"strict": true,
+    "lib": ["es5", "es6", "DOM", "ES2017", "ESNext.AsyncIterable"],
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "target": "es6",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "./lib",
+		"rootDir": "./src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+		"strictPropertyInitialization": false,	
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
